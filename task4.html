@@ -64,7 +64,6 @@
 
   <script>
     function validateForm() {
-      // Clear previous errors
       document.getElementById("nameError").innerText = "";
       document.getElementById("emailError").innerText = "";
       document.getElementById("passwordError").innerText = "";
@@ -90,7 +89,7 @@
         valid = false;
       }
 
-      return valid; // only submit if true
+      return valid;
     }
   </script>
 
